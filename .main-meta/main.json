@@ -1,0 +1,54 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f56q71-cnano-out-of-the-box-code-mplab-mcc",
+        "version": " ",
+        "displayName": "",
+        "projectName": "pic18f56q71-cnano-out-of-the-box-code-mplab-mcc",
+        "shortDescription": "This repository contains the project that comes preloaded on the PIC18F56Q71 Curiosity Nano board. It contains three scenarios which can be alternated using a command sent through serial communication.",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=6.5.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.40.0"
+            }
+        ],
+        "dfp": {
+            "name": "",
+            "semverRange": ""
+        },
+        "configurator": {
+            "name": "",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F56Q71",
+                "versionRange": "*"
+            }
+        },
+        "author": "Teodor-Emilian Petre",
+        "peripherals": [],
+        "keywords": [],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
