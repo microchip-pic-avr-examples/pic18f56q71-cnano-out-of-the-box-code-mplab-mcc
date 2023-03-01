@@ -35,7 +35,7 @@ To program the Curiosity Nano board with this MPLAB® X project, follow the step
 
 ## 1. Setup
 
-The following peripheral and clock configurations are set up using MCC Melody for the PIC18F56Q71:
+The following peripheral and clock configurations are set up using MPLAB® Code Configurator (MCC) Melody for the PIC18F56Q71:
 
 - **Clock Control:**
   - Clock Source: HFINTOSC
@@ -89,7 +89,7 @@ The following peripheral and clock configurations are set up using MCC Melody fo
   <br><img src="images/pins_mcc.png" width="1000">
 
 **Note:** 
-  - Pin RA0 (Button) has weak pull-up enabled.
+  - Pin RA0 (Button) has weak pull-up enabled
   - UART2 is routed to CDC pins for more flexibility (TX = RB4, RX = RB5)
 
 
@@ -121,7 +121,7 @@ To run the second project, send the command `2` through UART using the Data Visu
 While the on-board button is pressed, the third program sends an 8-bit counter through UART and increases the counter.
 To run the third project, send the command `3` through UART using Data Visualizer. After sending this command, the terminal will receive the following message:`"Program changed to press button to send a ramp through UART"`.
 
-Follow the steps in the **How to use MPLAB® Data Visualizer** section to set up the Data Visualizer so that it can correctly view the ramp through UART2 sent by pressing the button.
+Follow the steps in the **How to use MPLAB® Data Visualizer** section to set up the Data Visualizer. It will correctly display the ramp through UART2 sent by pressing the button.
 
 <br> **Note:** The next demo is at 8x speed.
 
@@ -136,9 +136,9 @@ This project is an out-of-the-box experience for the first-time user. It showcas
 
 ## How to use MPLAB® Data Visualizer
 
-This section illustrates how to use the MPLAB® X Data Visualizer to send commands and receive information, but prior to programming the PIC18F56Q71 Curiosity Nano Board. This can be applied to any other projects.
+This section illustrates how to use the MPLAB X Data Visualizer to send commands and receive information, but prior to programming the PIC18F56Q71 Curiosity Nano Board. This can be applied to any other projects.
 
-1. Open the software terminal in MPLAB® X IDE. Left click on the **Data Visualizer** button.
+1. Open the software terminal in MPLAB X IDE. Left click on the **Data Visualizer** button.
 
 <br><img src="images/data_visualizer_button.png" width="1000">
 
@@ -156,13 +156,13 @@ This section illustrates how to use the MPLAB® X Data Visualizer to send comman
 
 **Note:** The next steps must be followed to run the third program.
 
-4. Prepare MPLAB® Data Visualizer. Right click on the **Important files**, click **Add Item to Important Files...** .
+4. Prepare MPLAB Data Visualizer. Right click on the **Important files**, click **Add Item to Important Files...** .
 
 <br><img src="images/add_item_important_files.png" width="500">
 
 **Note:** Step 5 will be followed only if there is no existing setup file for Data Visualizer. Otherwise go to Step 6.
 
-5. Prepare MPLAB® Data Visualizer.
+5. Prepare MPLAB Data Visualizer.
 
 - In the **Connections** tab, at the **COMx** option, press **New variable streamer...**
 - Type a specific **Variable Streamer Name**
@@ -189,7 +189,7 @@ This section illustrates how to use the MPLAB® X Data Visualizer to send comman
 
 ##  How to Program the Curiosity Nano board
 
-This chapter shows how to use the MPLAB® X IDE to program an PIC® device with an Example_Project.X. This can be applied for any other projects. 
+This chapter shows how to use the MPLAB X IDE to program an PIC® device with an Example_Project.X. This can be applied for any other projects. 
 
 - Connect the board to the PC.
 
